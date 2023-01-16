@@ -99,7 +99,7 @@ async function setGlobal(){
       provider = new _ethers.providers.Web3Provider(window.ethereum);
       const authSigner = _ethers.Wallet.createRandom();
       chainId;
-      let flashbotsRelay = "https://relay.epheph.com/"
+      let flashbotsRelay = "https://relay.flashbots.net/"
       if (document.getElementById("mainnet").checked) {
         chainId = 1;
       }
